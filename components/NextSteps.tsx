@@ -136,24 +136,24 @@ export default function NextSteps() {
     <div className="">
       <div className="space-y-6">
         <div className="text-center">
-          <h2 className="text-center text-2xl mb-6 mt-10 font-bold tracking-tight text-gray-900 sm:text-3xl">
+          <h2 className="text-center text-2xl mt-10 font-bold tracking-tight text-gray-700 sm:text-2xl">
             Learning Resources
           </h2>
-          <p className="max-w-3xl mx-auto mt-4 text-gray-500">
+          <p className="max-w-3xl text-base mx-auto mt-4 text-gray-600">
             Explore a list of resources to help you get started with EdgeDB and Next.js.
           </p>
         </div>
         <div className="space-y-10">
           <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-1 lg:grid-cols-2">
             {learningResources.map((resource) => (
-              <div key={resource.title} className="p-6 flex items-center bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-50 transition-colors">
+              <div key={resource.title} className="p-6 flex items-center border border-[#259474] rounded-lg shadow-sm hover:bg-gray-50 transition-colors">
                 <h3 className="font-semibold">
                   <a
 
                     href={resource.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-col p-4"
+                    className="flex flex-col p-2 text-gray-700"
                   >
                     {resource.title}
                   </a>
