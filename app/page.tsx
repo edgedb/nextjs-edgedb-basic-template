@@ -22,7 +22,7 @@ export default async function Home() {
             Here are some next steps to get you up to speed.
           </p>
           <div className="mx-auto">
-            <p className="mt-10 text-base leading-10 text-gray-600 border border-[#259474] rounded-lg shadow-sm p-6 max-w-fit">
+            <p className="mt-10 text-base leading-10 text-gray-600 border border-[#259474] border-opacity-20 rounded-lg shadow-sm p-6 max-w-fit">
               The result of the query <code className="
               inline-block
               px-2
